@@ -2,9 +2,9 @@ import React from 'react';
 
 const Blog = () => {
     return (
-        <div id='blog' className='py-24'>
+        <div id='blog' className='pt-24 pb-24'>
            <h2 className='text-4xl text-purple-400 font-medium text-start pl-12'>BLOG</h2>
-            <div class="">
+            <div class="pt-24">
                 <div class="container">
                     <div class="p-5 mx-2">
                         <div class="text-center">

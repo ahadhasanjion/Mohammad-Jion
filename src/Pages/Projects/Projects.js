@@ -13,7 +13,7 @@ import './Projects.css'
 const Projects = () => {
     return (
         <div id='projects' className='mx-auto pt-24 pb-24'>
-            <h2 className="text-4xl text-purple-400 font-medium text-start pl-8 pb-5">PERSONAL-PROJECTS</h2>
+            <h2 className="text-4xl font-medium text-start pl-8 pb-5 text-purple-400">PERSONAL-PROJECTS</h2>
             <div className='grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-4 mx-auto px-8 mt-2'>
                 <div className="shadow-md">
                     <div className="space-y-4">

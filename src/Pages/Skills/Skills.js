@@ -21,8 +21,8 @@ import './Skills.css'
 const Skills = () => {
     return (
         <div id="skills" className='mx-auto pt-24 pb-24'>
-            <h2 className='mx-auto text-4xl text-purple-400 font-medium text-start pl-10'>SKILLS</h2>
-            <div class="grid lg:grid-cols-7 md:grid-cols-5 grid-cols-3 text-center gap-y-6 mt-8">
+            <h2 className='mx-auto text-4xl font-medium text-start pl-10 text-purple-400'>SKILLS</h2>
+            <div class="grid lg:grid-cols-7 md:grid-cols-5 sm:grid-cols-1 text-center gap-y-6 mt-8 text-gray-400">
                 <div class="img-text text-center mx-auto the-div">
                   <img alt="HTML" src={HTML} />
                   <p>HTML</p>
@@ -63,15 +63,15 @@ const Skills = () => {
                   <img alt="JQ" src={JQ} />
                   <p>JQuery Plugin</p>
                 </div>
-                <div class="img-text mx-auto  the-div">
+                <div class="img-text mx-auto text-center the-div">
                   <img alt="JQ" src={Jwt} />
                   <p>JWT</p>
                 </div>
-                <div class="img-text mx-auto  the-div">
+                <div class="img-text mx-auto text-center the-div">
                   <img alt="JQ" src={ANT} />
                   <p>Ant design</p>
                 </div>
-                <div class="img-text mx-auto  the-div">
+                <div class="img-text mx-auto text-center the-div">
                   <img alt="JQ" src={Swiper} />
                   <p>Swiper JS</p>
                 </div>
