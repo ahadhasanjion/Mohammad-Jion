@@ -1,0 +1,23 @@
+.img-text img{
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    text-align: center;
+}
+.text{
+    color: #333333;
+}
+
+.the-div{
+    background-color: white;
+    padding: 10px;
+    border-radius: 15px;
+    width: 125px;
+    border: 1px solid #eee;
+    text-align: center;
+    transition: all linear .3s;
+}
+.the-div:hover{
+    transform: scale(1.1);
+    box-shadow: 1;
+}
