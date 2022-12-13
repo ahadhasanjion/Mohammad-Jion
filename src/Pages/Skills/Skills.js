@@ -20,67 +20,67 @@ import './Skills.css'
 
 const Skills = () => {
     return (
-        <div id="skills" className='mx-auto pt-24 pb-24'>
+        <div id="skills" className='mx-auto md:pt-12 md:mb-12 lg:pb-24 lg:pt-40 pt-8 pb-8 font'>
             <h2 className='mx-auto text-4xl font-medium text-start pl-10 text-purple-400'>SKILLS</h2>
-            <div class="grid lg:grid-cols-7 md:grid-cols-5 sm:grid-cols-1 text-center gap-y-6 mt-8 text-gray-400">
-                <div class="img-text text-center mx-auto the-div">
+            <ul class="main text-center gap-y-6 md:mt-6 mt-3 lg:mt-12 text-gray-400 px-8 text-sm">
+                <li class="img-text text-center mx-auto the-div m-auto">
                   <img alt="HTML" src={HTML} />
-                  <p>HTML</p>
-                </div>
-                <div class="img-text mx-auto text-center the-div">
+                  <p className='text-size'>HTML</p>
+                </li>
+                <li class="img-text mx-auto text-center the-div m-auto">
                   <img alt="CSS" src={CSS} />
-                  <p>CSS</p>
-                </div>
-                <div class="img-text mx-auto  text-center the-div">
+                  <p className='text-size'>CSS</p>
+                </li>
+                <li class="img-text mx-auto  text-center the-div m-auto">
                   <img alt="CSS" src={Bootstrap} />
-                  <p>Bootstrap</p>
-                </div>
-                <div class="img-text mx-auto  text-center the-div">
+                  <p className='text-size'>Bootstrap</p>
+                </li>
+                <li class="img-text mx-auto  text-center the-div m-auto">
                   <img alt="CSS" src={TWCSS} />
-                  <p>Tailwind CSS</p>
-                </div>
-                <div class="img-text mx-auto text-center the-div">
+                  <p className='text-size'>Tailwind CSS</p>
+                </li>
+                <li class="img-text mx-auto text-center the-div m-auto">
                   <img alt="SASS" src={SASS} />
-                  <p>SASS</p>
-                </div>
-                <div class="img-text mx-auto text-center the-div">
+                  <p className='text-size'>SASS</p>
+                </li>
+                <li class="img-text mx-auto text-center the-div m-auto">
                   <img alt="JS" src={JS} />
-                  <p>Javascript</p>
-                </div>
-                <div class="img-text mx-auto text-center the-div">
+                  <p className='text-size'>Javascript</p>
+                </li>
+                <li class="img-text mx-auto text-center the-div m-auto">
                   <img alt="JQ" src={mongo} />
-                  <p>MongoDB</p>
-                </div>
-                <div class="img-text mx-auto text-center the-div">
+                  <p className='text-size'>MongoDB</p>
+                </li>
+                <li class="img-text mx-auto text-center the-div m-auto">
                   <img alt="React js" src={ReactJs} />
-                  <p>React Js</p>
-                </div>
-                <div class="img-text mx-auto text-center the-div">
+                  <p className='text-size'>React Js</p>
+                </li>
+                <li class="img-text mx-auto text-center the-div m-auto">
                   <img alt="Firebase" src={Firebase} />
-                  <p>Firebase</p>
-                </div>
-                <div class="img-text mx-auto text-center the-div">
+                  <p className='text-size'>Firebase</p>
+                </li>
+                <li class="img-text mx-auto text-center the-div m-auto">
                   <img alt="JQ" src={JQ} />
-                  <p>JQuery Plugin</p>
-                </div>
-                <div class="img-text mx-auto text-center the-div">
+                  <p className='text-size'>JQuery(plug)</p>
+                </li>
+                <li class="img-text mx-auto text-center the-div m-auto">
                   <img alt="JQ" src={Jwt} />
-                  <p>JWT</p>
-                </div>
-                <div class="img-text mx-auto text-center the-div">
+                  <p className='text-size'>JWT</p>
+                </li>
+                <li class="img-text mx-auto text-center the-div m-auto">
                   <img alt="JQ" src={ANT} />
-                  <p>Ant design</p>
-                </div>
-                <div class="img-text mx-auto text-center the-div">
+                  <p className='text-size'>Ant design</p>
+                </li>
+                <li class="img-text mx-auto text-center the-div m-auto">
                   <img alt="JQ" src={Swiper} />
-                  <p>Swiper JS</p>
-                </div>
-                <div class="img-text mx-auto text-center the-div">
+                  <p className='text-size'>Swiper JS</p>
+                </li>
+                <li class="img-text mx-auto text-center the-div m-auto">
                   <img alt="VS" src={VS} />
-                  <p>VS Code</p>
-                </div>
+                  <p className='text-size'>VS Code</p>
+                </li>
               
-            </div>
+            </ul>
         </div>
     );
 };

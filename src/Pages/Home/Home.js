@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import AboutMe from '../About/AboutMe';
 import Blog from '../Blog/Blog';
 import Contact from '../Contact/Contact';
@@ -13,19 +13,25 @@ import './Home.css'
 const Home = () => {
 
     return (
-        <>
-            <div id='home'>
+        <div id='home'>
+            
+            <Header></Header>
+            <AboutMe></AboutMe>
+            <Skills></Skills>
+            <Projects></Projects>
+            <Blog></Blog>
+            <Contact></Contact>
                 
-                <Navbar></Navbar>
+                {/* <Navbar></Navbar>
                 <Header></Header>
                 <AboutMe></AboutMe>
                 <Skills></Skills>
                 <Projects></Projects>
                 <Blog></Blog>
                 <Contact></Contact>
-                <Footer></Footer>
+                <Footer></Footer> */}
             </div>
-        </>
+        
 
 
     );

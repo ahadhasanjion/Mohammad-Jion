@@ -1,0 +1,166 @@
+[
+    {
+            "img": "https://i.ibb.co/tptCfZx/CARBS.png",
+            "name": "CARBS",
+            "id": "01",
+            "img1": "https://i.ibb.co/2NhD9dq/CARBS1.png",
+            "img2": "https://i.ibb.co/1f3nm2t/CARBS2.png",
+            "img3": "https://i.ibb.co/tbZ79tw/CARBS3.png",
+            "details": [
+                "This website is almost like bikroy.com",
+                "A user can sign up as a buyer and seller on this website.",
+                "Other way this website has a payment gateway system.",
+                "This website has an Admin panel the admin can delete any buyers and sellers if he wants.",
+                "A sellers advertise this product"
+            ],
+            "liveLink": "https://carbs-1687c.web.app",
+            "clientLink": "https://github.com/ahadhasanjion/CARBS",
+            "serverLink": ""
+    },
+    {
+        "img": "https://i.ibb.co/B3Gxf0f/BJM.png",
+        "name": "BJM",
+        "id": "02",
+        "img1": "https://i.ibb.co/YtYHq7f/BJM1.png",
+        "img2": "https://i.ibb.co/7QCrVHX/BJM2.png",
+        "img3": "https://i.ibb.co/MgQGzrn/BJM3.png",
+        "details": [
+            "This website is almost like bikroy.com",
+            "A user can sign up as a buyer and seller on this website.",
+            "Other way this website has a payment gateway system.",
+            "This website has an Admin panel the admin can delete any buyers and sellers if he wants.",
+            "A sellers advertise this product"
+        ],
+        "live_site_link": "",
+        "client_site_link": "",
+        "serverLink": ""
+    },
+    {
+        "img": "https://i.ibb.co/mTCCDDp/walmart.png",
+        "name": "WALMART",
+        "id": "03",
+        "img1": "https://i.ibb.co/WvWGCHy/WALMART1.png",
+        "img2": "https://i.ibb.co/DC6RVZh/WALMART2.png",
+        "img3": "https://i.ibb.co/Ht9T1Vv/WALMART3.png",
+        "details": [
+            "This website is almost like bikroy.com",
+            "A user can sign up as a buyer and seller on this website.",
+            "Other way this website has a payment gateway system.",
+            "This website has an Admin panel the admin can delete any buyers and sellers if he wants.",
+            "A sellers advertise this product"
+        ],
+        "liveLink": "https://ahadhasanjion.github.io/Wolmart/",
+        "codeLink":"https://github.com/ahadhasanjion/Wolmart",
+        "serverLink": ""
+    },
+    {
+        "img": "https://i.ibb.co/6wrCWV1/GYM.png",
+        "name": "GYMNASIUM",
+        "id": "04",
+        "img1": "https://i.ibb.co/2FnxdN7/GYM1.png",
+        "img2": "https://i.ibb.co/Kw2trFp/GYM2.png",
+        "img3": "https://i.ibb.co/ZNw2sqG/GYM3.png",
+        "details": [
+            "This website is almost like bikroy.com",
+            "A user can sign up as a buyer and seller on this website.",
+            "Other way this website has a payment gateway system.",
+            "This website has an Admin panel the admin can delete any buyers and sellers if he wants.",
+            "A sellers advertise this product"
+        ],
+        "liveLink": "https://ahadhasanjion.github.io/Gymnesiam/",
+        "codeLink":"https://github.com/ahadhasanjion/Gymnesiam",
+        "serverLink": ""
+   },
+   {
+    "img": "https://i.ibb.co/q7k1hzh/NIHO.png",
+    "name": "NIHO",
+    "id": "05",
+    "img1": "https://i.ibb.co/3kxx830/NIHO1.pn",
+    "img2": "https://i.ibb.co/9Hfbjzj/NIHO2.png",
+    "img3": "https://i.ibb.co/0cBT16R/NIHO3.png",
+    "details": [
+        "This website is almost like bikroy.com",
+        "A user can sign up as a buyer and seller on this website.",
+        "Other way this website has a payment gateway system.",
+        "This website has an Admin panel the admin can delete any buyers and sellers if he wants.",
+        "A sellers advertise this product"
+    ],
+    "liveLink": "https://niho-723ae.web.app/",
+    "clientLink": "https://github.com/ahadhasanjion/NIHO",
+    "serverLink": ""
+ },
+ {
+    "img": "https://i.ibb.co/f1NbRfR/AHJ.png",
+    "name": "AHJ",
+    "id": "06",
+    "img1": "https://i.ibb.co/qWgcPcK/AHJ1.png",
+    "img2": "https://i.ibb.co/nRgwWCz/AHJ2.png",
+    "img3": "https://i.ibb.co/SfqBvQS/AHJ3.png",
+    "details": [
+        "This website is almost like bikroy.com",
+        "A user can sign up as a buyer and seller on this website.",
+        "Other way this website has a payment gateway system.",
+        "This website has an Admin panel the admin can delete any buyers and sellers if he wants.",
+        "A sellers advertise this product"
+    ],
+    "liveLink": "https://darling-biscotti-b40b34.netlify.app/",
+    "clientLink": "https://github.com/ahadhasanjion/AHJ",
+    "serverLink": ""
+}
+]
+[
+    {
+        "img": "../src/Assets/CARBS.PNG",
+        "name": "CARBS",
+        "img1": "../src/Assets/CARBS1.PNG",
+        "img2": "../src/Assets/CARBS2.PNG",
+        "img3": "../src/Assets/CARBS3.PNG",
+        "liveLink": "https://carbs-1687c.web.app/",
+        "codeLink":"https://github.com/ahadhasanjion/CARBS"
+    },
+    {
+        "img":  "../src/Assets/BJM.PNG",
+        "name": "BJM",
+        "img1": "../src/Assets/BJM1.PNG",
+        "img2": "../src/Assets/BJM2.PNG",
+        "img3": "../src/Assets/BJM3.PNG",
+        "liveLink": "https://bj-m-a19f3.web.app/",
+        "codeLink":"https://github.com/ahadhasanjion/BJM"
+    },
+    {
+        "img": "../src/Assets/walmart.PNG",
+        "name": "WALMART",
+        "img1": "../src/Assets/WALMART1.PNG",
+        "img2": "../src/Assets/WALMART2.PNG",
+        "img3": "../src/Assets/WALMART3.PNG",
+        "liveLink": "https://ahadhasanjion.github.io/Wolmart/",
+        "codeLink":"https://github.com/ahadhasanjion/Wolmart"
+    },
+    {
+        "img": "../src/Assets/GYM.PNG",
+        "name": "GYM",
+        "img1": "../src/Assets/GYM1.PNG",
+        "img2": "../src/Assets/GYM2.PNG.PNG",
+        "img3": "../src/Assets/GYM3.PNG.PNG",
+        "liveLink": "https://ahadhasanjion.github.io/Gymnesiam/",
+        "codeLink":"https://github.com/ahadhasanjion/Gymnesiam"
+    },
+    {
+        "img": "../src/Assets/NIHO.PNG",
+        "name": "NIHO",
+        "img1": "../src/Assets/NIHO1.PNG",
+        "img2": "../src/Assets/NIHO2.PNG",
+        "img3": "../src/Assets/NIHO3.PNG",
+        "liveLink": "https://niho-723ae.web.app/",
+        "codeLink":"https://github.com/ahadhasanjion/NIHO"
+    },
+    {
+        "img": "../src/Assets/AHJ.PNG",
+        "name": "AHJ",
+        "img1": "../src/Assets/AHJ1.PNG",
+        "img2": "../src/Assets/AHJ2.PNG",
+        "img3": "../src/Assets/AHJ3.PNG",
+        "liveLink": "https://darling-biscotti-b40b34.netlify.app/",
+        "codeLink":"https://github.com/ahadhasanjion/AHJ"
+    }
+]

@@ -4,12 +4,16 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Scroll from './Pages/Scroll/Scroll';
+import ThemeProvider from './ThemeProvider/ThemeProvider';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Scroll></Scroll>
-   <App />
+    
+    <ThemeProvider>
+       <App />    
+      <Scroll></Scroll>
+    </ThemeProvider>
   </React.StrictMode>
 );
 

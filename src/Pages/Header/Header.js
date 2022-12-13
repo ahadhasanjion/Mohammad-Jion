@@ -4,14 +4,15 @@ import Linkedin from '../../Assets/icons8-linkedin.svg'
 import github from '../../Assets/icons8-github.svg'
 import TypeWriterEffect from 'react-typewriter-effect';
 import abt from '../../Assets/coding-removebg-preview.png';
+import Resume from '../../Assets/last.pdf';
 
 
 
 
 const Header = () => {
     return (
-        <div className='pl-12 pt-28 pb-28 flex lg:flex-row md:flex-row items-center justify-between'>
-            <div className='lg:w-2/4 md:w-2/4'>
+        <div className='pl-12 md:pt-14 md:pb-14 pt-7 pb-7 lg:pt-28 lg:pb-28 flex lg:flex-row md:flex-row items-center justify-between font'>
+            <div className='lg:w-2/4 md:w-w-2/4 sm:w-full'>
                 <div>
                     <p className='text-3xl text-gray-400'>HI THERE! I'M</p>
                     <TypeWriterEffect
@@ -28,7 +29,7 @@ const Header = () => {
                     <p className='text-3xl pt-3 text-gray-400'>A Front-End Web Developer passionate about creating good responsive and  User-Experience website.</p>
                 </div>
                 <div className='flex items-center mt-5'>
-                    <a class=" resume-link inline-block bg-purple-400 rounded-full bg-gradient-to-r p-[2px] tex focus:outline-none focus:ring active:text-opacity-75" download="PORTFOLIO" href="https://drive.google.com/file/d/1fTbgVYsWfds0snuJpiEYAxrGHQU9aViA/view" target="_blank">
+                    <a class=" resume-link inline-block bg-purple-400 rounded-full bg-gradient-to-r p-[2px] tex focus:outline-none focus:ring active:text-opacity-75" download="PORTFOLIO" href={Resume}>
                         <span class="block rounded-full  px-8 py-3 text-sm font-medium hover:bg-transparent text-white">
                             Resume
                         </span>
@@ -44,8 +45,8 @@ const Header = () => {
                     </ul>
                 </div>
             </div>
-            <div className='lg:w-2/4 md:w-2/4 sm:hidden md:block lg:block'>
-                <img className='' src={abt}/>
+            <div className='lg:w-2/4 hidden md:block lg:block'>
+                <img  src={abt}/>
             </div>
         </div>
     );

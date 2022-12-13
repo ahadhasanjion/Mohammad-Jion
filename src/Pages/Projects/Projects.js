@@ -1,21 +1,29 @@
-import React from 'react';
-import CARBS from '../../Assets/CARBS.PNG'
-import BJM from '../../Assets/BJM.PNG'
-import WALMART from '../../Assets/walmart.PNG'
-import GYM from '../../Assets/GYM.PNG'
-import NIHO from '../../Assets/NIHO.PNG'
-import AHJ from '../../Assets/AHJ.PNG'
+import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
+import ProjectsCard from './ProjectsCard';
 
-
-
-import './Projects.css'
 
 const Projects = () => {
+     const [projects, setProjects] = useState([]);
+
+    useEffect(() => {
+        fetch('https://mohammad-jion-server.vercel.app/projects')
+            .then(res => res.json())
+            .then(data => {
+                setProjects(data)
+            });
+    }, [])
     return (
-        <div id='projects' className='mx-auto pt-24 pb-24'>
-            <h2 className="text-4xl font-medium text-start pl-8 pb-5 text-purple-400">PERSONAL-PROJECTS</h2>
-            <div className='grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-4 mx-auto px-8 mt-2'>
-                <div className="shadow-md">
+        <div id='projects' className='mx-auto md:pt-12 md:pb-12 pb-8 pt-8 lg:pt-24 lg:pb-24 font'>
+            <h2 className="lg:text-4xl md:text-3xl text-2xl font-medium text-start pl-8 pb-5 text-purple-400">PERSONAL-PROJECTS</h2>
+            <div className='grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-4 mx-auto px-8 md:mt-4 lg:mt-8 mt-2'>
+
+                {
+                    projects?.map(project => <ProjectsCard key={project.id} project={project}></ProjectsCard>)
+                }
+
+
+                {/* <div className="shadow-md">
                     <div className="space-y-4">
                         <div className="space-y-2">
                             <img src={CARBS} alt="" className="block object-cover object-center w-full rounded-md h-72 dark:bg-gray-500" />
@@ -98,7 +106,7 @@ const Projects = () => {
                             </a>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     );
